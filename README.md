@@ -1,50 +1,51 @@
-# 🧠 HTB Networking Lessons
+# 🧠 HTB Networking Lessons (Հայերեն)
 
-Welcome to my **Hack The Box Networking Lessons** repository!  
-This repo contains detailed notes, summaries, and practical exercises focused on computer networking — from basic concepts to advanced topics — all tailored for ethical hacking and penetration testing.
-
----
-
-## 📚 Overview
-
-These lessons are designed to strengthen your understanding of networking fundamentals required for platforms like **Hack The Box (HTB)**, **TryHackMe**, and general **ethical hacking** studies.
-
-### 🧩 Topics Covered
-
-- **1️⃣ OSI Model & TCP/IP Stack**
-  - Understanding each layer
-  - Real-world examples and data flow visualization
-- **2️⃣ IP Addressing & Subnetting**
-  - IPv4 / IPv6 basics
-  - CIDR notation
-- **3️⃣ MAC Address & ARP**
-  - How devices communicate within a LAN
-- **4️⃣ DNS, DHCP, and NAT**
-  - How names, IPs, and network translation work
-- **5️⃣ Ports & Protocols**
-  - TCP vs UDP
-  - Common services (HTTP, HTTPS, SSH, FTP, etc.)
-- **6️⃣ Network Scanning**
-  - Using tools like `nmap`, `ping`, and `traceroute`
-- **7️⃣ Packet Analysis**
-  - Basics of Wireshark and packet inspection
-- **8️⃣ Wireless Networks**
-  - Wi-Fi security basics and attacks overview
+Բարի գալուստ իմ **Hack The Box Networking Lessons** ռեփոզիտորիում։  
+Այս ռեպոն պարունակում է մանրամասն նոտաներ, ամփոփումներ և պրակտիկ լաբորատոր աշխատանքներ՝ ցանցային գիտելիքների համար՝ սկսնակից մինչև միջանկյալ/առաջադեմ մակարդակ, նպատակային՝ էթիկական հաքինգի և penetration testing-ի համար։
 
 ---
 
-## 💻 Practical Labs
-
-Each section contains **hands-on exercises** and **HTB-style challenges** to help reinforce theoretical concepts through practice.
-
-- 🧪 Packet sniffing with `tcpdump`
-- ⚙️ Subnetting challenges
-- 🌐 Host discovery and scanning
-- 🔍 Identifying open ports and services
+## 📌 Նպատակ
+Այս նյութերը նպատակ ունեն՝
+- Արդիականացնել ձեր ցանցային հիմնարար գիտելիքները։  
+- Տալ իրական ծրագրեր և լաբ-վարժություններ՝ HTB / TryHackMe ոճով։  
+- Աջակցել գործիքների ու մեթոդների պրակտիկ կիրառմանը։
 
 ---
 
-## 🚀 How to Use
+## 📚 Բովանդակություն (Topics Covered)
 
-1. Clone the repository:
-   https://github.com/mish01921/Networking_HTB_Armenian_Translate.git
+1. **OSI մոդել & TCP/IP stack**  
+   - Յուրաքանչյուր շերտի աշխատանքը, տվյալների հոսք։  
+2. **IP հասցեավորում & Subnetting**  
+   - IPv4 / IPv6, CIDR, սաբերնետային հաշվարկներ։  
+3. **MAC հասցե & ARP**  
+   - LAN հաղորդակցություն, ARP հարցումներ/պատասխաններ։  
+4. **DNS, DHCP, NAT**  
+   - Անունների լուծում, IP առաքում, ցանցային թարգմանություն։  
+5. **Պորտեր & Պրոտոկոլներ**  
+   - TCP vs UDP, հիմնական ծառայություններ (HTTP, SSH, FTP և այլն)։  
+6. **Ցանցային սկանավորում**  
+   - `nmap`, `ping`, `traceroute` սցենարներ ու օրինակներ։  
+7. **Փաթեթային վերլուծություն**  
+   - Wireshark, `tcpdump`, packet capture-ների վերլուծություն։  
+8. **Wireless (Wi-Fi) ցանցեր**  
+   - Wi-Fi սկզբունքներ, անվտանգության ռիսկեր և բացահայտումներ։
+
+---
+
+## 💻 Պրակտիկ լաբեր (Labs)
+
+Յուրաքանչյուր գլուխ պարունակում է քայլ առ քայլ վարժություններ՝
+- Փաթեթների լսում (`tcpdump`, `wireshark`)  
+- Սաբնետների հաշվարկում և պրակտիկ խնդիրներ  
+- Հոսթ հայտնաբերում և սկանավորում (`nmap`)  
+- Ծառայությունների հայտնաբերում և fingerprinting
+
+---
+
+## 🚀 Ինչպես սկսել
+
+```bash
+git clone https://github.com/mish01921/Networking_HTB_Armenian_Translate.git
+cd Networking_HTB_Armenian_Translate
